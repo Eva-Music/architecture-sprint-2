@@ -110,7 +110,7 @@ services:
     ports:
       - 8080:8080
     environment:
-      MONGODB_URL: "mongodb://173.17.0.7"
+      MONGODB_URL: "mongodb://173.17.0.7:27020"
       MONGODB_DATABASE_NAME: "somedb"
     networks:
       app-network:
